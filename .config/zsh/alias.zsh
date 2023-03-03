@@ -13,7 +13,9 @@ alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pac
 
 # easier to read disk
 alias df='df -h'     # human-readable sizes
-alias free='free -m' # show sizes in MBalias config='/usr/bin/git --git-dir=/home/mykola/.cfg/ --work-tree=/home/mykola'
+alias free='free -m' # show sizes in MB
 
 # git bare repository
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+
