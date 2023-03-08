@@ -1,6 +1,6 @@
--- #########
---  Keymaps
--- #########
+-- -----------
+-- - Keymaps -
+-- -----------
 
 local key = vim.keymap.set
 local full_options = { noremap = true, silent = true, }
@@ -11,9 +11,12 @@ vim.g.mapleader = " "
 -- Save file with ctrl-s
 key("n", "<C-s>", ":w<cr>")
 
--- @@@@@@@@@@@
---  NVIM-TREE
--- @@@@@@@@@@@
+-- Quit file with ctrl-q
+key("n", "<C-q>", ":q<cr>")
+
+-- -------------
+-- - NVIM-TREE -
+-- -------------
 
 key("n", "<C-a>", ":NvimTreeToggle<cr>", full_options)
 key("n", "<C-f>", ":NvimTreeFindFile<cr>", full_options)
