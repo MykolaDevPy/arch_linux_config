@@ -1,4 +1,6 @@
-alias ls="lsd"
+alias ls="lsd -a"
+
+alias lvim="~/.local/bin/lvim"
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -18,4 +20,10 @@ alias free='free -m' # show sizes in MB
 # git bare repository
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-
+# git aliases
+alias ga='git add'
+alias gc='git commit'
+alias gco='git checkout'
+alias gb='git branch'
+alias gpu='git push -u'
+alias gs='git stash'
